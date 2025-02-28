@@ -29,7 +29,7 @@ export default function CTA() {
             className="inline-flex items-center gap-2 px-8 py-4 bg-black text-gt-gold border-2 border-gt-gold rounded-lg font-bold text-lg hover:bg-gt-gold hover:text-black transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => window.open("https://form.typeform.com/to/EgU0G2Fa", "_blank")}
+            onClick={() => window.open("https://forms.gle/RMLbtMc6n34y9f448", "_blank")}
           >
             Join the Waitlist
             <ArrowRight className="w-5 h-5" />
