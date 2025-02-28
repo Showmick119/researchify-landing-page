@@ -103,7 +103,8 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300, damping: 10 }}
               >
-                Skip the Seearch. Start the Research.
+                Skip the Search <br />
+                Start the Research
               </motion.span>
             </motion.h1>
 
@@ -154,7 +155,6 @@ export default function Hero() {
                 ease: "linear",
               }}
             >
-              ⚛
             </motion.div>
           ))}
         </div>
