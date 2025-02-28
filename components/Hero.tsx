@@ -125,7 +125,7 @@ export default function Hero() {
             >
               <Link href="/join">
                 <FuturisticButton size="lg" className="transform-gpu" glowColor="rgba(179, 163, 105, 0.5)">
-                  Join Our Network
+                  Join The Waitlist
                 </FuturisticButton>
               </Link>
             </motion.div>
