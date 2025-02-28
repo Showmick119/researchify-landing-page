@@ -135,7 +135,7 @@ export default function Hero() {
 
       {/* Animated Logo */}
       <motion.div
-        className="absolute top-4 right-4 z-50"
+        className="absolute top-4 right-4 z-50 hidden md:block"
         initial={{ scale: 0, rotate: -180 }}
         animate={{ scale: 1, rotate: 0 }}
         transition={{
