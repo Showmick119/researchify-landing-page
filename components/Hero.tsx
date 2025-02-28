@@ -123,7 +123,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <Link href="/join">
+              <Link href="https://forms.gle/HRajxKH9EwE44Hws9">
                 <FuturisticButton size="lg" className="transform-gpu" glowColor="rgba(179, 163, 105, 0.5)">
                   Join The Waitlist
                 </FuturisticButton>
