@@ -30,7 +30,7 @@ export default function Hero() {
       {/* Fixed Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="public/background.jpg"
+          src="public/background.webp"
           alt="Research Lab"
           fill
           priority
