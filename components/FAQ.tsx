@@ -8,7 +8,7 @@ const faqs = [
   {
     question: "Who can use Research Finder?",
     answer:
-      "Research Finder is available to all current students looking for research opportunities across various departments and labs.",
+      "Researchify is available to all current students looking for research opportunities across various departments and labs.",
   },
   {
     question: "How does the AI matching system work?",
