@@ -30,8 +30,8 @@ export default function Hero() {
       {/* Fixed Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ljPbbV38wmi4G51Dl0tl348Wd4ypB8.png"
-          alt="GT Research Lab"
+          src="https://files.oaiusercontent.com/file-9WpXZ3JVL514StiHHeRuT3?se=2025-02-28T03%3A08%3A54Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Ddd658f14-6e39-4989-a5b6-6db111b3a6df.webp&sig=prErtoD2hKGHGKnh5y0ToCRX3uhPjSEVOFkGQVKk6dM%3D"
+          alt="Research Lab"
           fill
           priority
           className="object-cover"
