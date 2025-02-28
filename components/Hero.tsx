@@ -136,8 +136,8 @@ export default function Hero() {
       {/* Animated Logo */}
       <motion.div
         className="absolute top-4 right-4 z-50 hidden md:block"
-        initial={{ scale: 0, rotate: -180 }}
-        animate={{ scale: 1, rotate: 0 }}
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
         transition={{
           type: "spring",
           stiffness: 260,
@@ -145,27 +145,13 @@ export default function Hero() {
           duration: 1.5,
         }}
       >
-        <motion.div
-          animate={{
-            scale: [1, 1.1, 1],
-            rotate: [0, 5, -5, 0],
-          }}
-          transition={{
-            duration: 5,
-            ease: "easeInOut",
-            times: [0, 0.2, 0.5, 0.8, 1],
-            repeat: Number.POSITIVE_INFINITY,
-            repeatDelay: 1,
-          }}
-        >
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/researchifylogo-YT7wRSfdR6fxTWWl4M90XeJfiLAD7F.png"
-            alt="Researchify Logo"
-            width={250}
-            height={250}
-            className="filter drop-shadow-[0_0_10px_rgba(179,163,105,0.7)]"
-          />
-        </motion.div>
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/researchifylogo-YT7wRSfdR6fxTWWl4M90XeJfiLAD7F.png"
+          alt="Researchify Logo"
+          width={250}
+          height={250}
+          className="filter brightness-75 opacity-80 drop-shadow-[0_0_10px_rgba(0,0,0,0.5)]"
+        />
       </motion.div>
 
       {/* Scientific Symbols Overlay */}
