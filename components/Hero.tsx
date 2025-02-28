@@ -103,7 +103,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300, damping: 10 }}
               >
-                Research Finder
+                Discover. Connect. Research.
               </motion.span>
             </motion.h1>
 
