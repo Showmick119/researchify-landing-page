@@ -134,7 +134,7 @@ export default function Hero() {
 
       {/* Scientific Symbols Overlay */}
       {isMounted && (
-        <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none overflow-hidden hidden md:block">
           {Array.from({ length: 15 }).map((_, i) => (
             <motion.div
               key={i}
