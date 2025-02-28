@@ -148,8 +148,8 @@ export default function Hero() {
         <Image
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/researchifylogo-YT7wRSfdR6fxTWWl4M90XeJfiLAD7F.png"
           alt="Researchify Logo"
-          width={350}
-          height={350}
+          width={200}
+          height={200}
           className="filter brightness-75 opacity-80 drop-shadow-[0_0_10px_rgba(0,0,0,0.5)]"
         />
       </motion.div>
