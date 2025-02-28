@@ -23,7 +23,7 @@ export default function Hero() {
   const contentOpacity = useTransform(scrollYProgress, [0, 0.5, 1], [1, 0.7, 0.5])
   const contentTranslateY = useTransform(scrollYProgress, [0, 0.5], [0, -50])
 
-  const tintColor = useTransform(scrollYProgress, [0, 1], ["rgba(0, 0, 0, 0.5)", "rgba(0, 48, 87, 0.9)"])
+  const tintColor = useTransform(scrollYProgress, [0, 1], ["rgba(0, 0, 0, 0.7)", "rgba(0, 48, 87, 0.9)"])
 
   return (
     <section ref={containerRef} className="relative min-h-screen overflow-hidden">
