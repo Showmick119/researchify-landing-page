@@ -36,10 +36,18 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/favicon-96x96.png" sizes="96x96" type="image/png" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="480x480" />
+        <link rel="icon" href="/favicon-96x96.png" sizes="480x480" type="image/png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" type="image/png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <style>{`
+          @media (min-resolution: 2dppx) {
+            link[rel="icon"] {
+              width: 480px;
+              height: 480px;
+            }
+          }
+        `}</style>
       </head>
       <body className="font-sans bg-black min-h-screen">{children}</body>
     </html>
