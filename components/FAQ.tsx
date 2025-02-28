@@ -6,7 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "Who can use Research Finder?",
+    question: "Who can use Researchify?",
     answer:
       "Researchify is available to all current students looking for research opportunities across various departments and labs.",
   },
