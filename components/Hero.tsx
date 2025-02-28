@@ -133,6 +133,41 @@ export default function Hero() {
         </div>
       </motion.div>
 
+      {/* Animated Logo */}
+      <motion.div
+        className="absolute top-4 left-1/2 transform -translate-x-1/2 z-50"
+        initial={{ scale: 0, rotate: -180 }}
+        animate={{ scale: 1, rotate: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 260,
+          damping: 20,
+          duration: 1.5,
+        }}
+      >
+        <motion.div
+          animate={{
+            scale: [1, 1.1, 1],
+            rotate: [0, 5, -5, 0],
+          }}
+          transition={{
+            duration: 5,
+            ease: "easeInOut",
+            times: [0, 0.2, 0.5, 0.8, 1],
+            repeat: Number.POSITIVE_INFINITY,
+            repeatDelay: 1,
+          }}
+        >
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/researchifylogo-YT7wRSfdR6fxTWWl4M90XeJfiLAD7F.png"
+            alt="Researchify Logo"
+            width={250}
+            height={250}
+            className="filter drop-shadow-[0_0_10px_rgba(179,163,105,0.7)]"
+          />
+        </motion.div>
+      </motion.div>
+
       {/* Scientific Symbols Overlay */}
       {isMounted && (
         <div className="absolute inset-0 pointer-events-none overflow-hidden hidden md:block">
